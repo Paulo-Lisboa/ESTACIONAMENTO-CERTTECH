@@ -318,8 +318,9 @@ body {
     border: 1px solid rgba(255,255,255,0.3);
     border-radius: 8px;
     font-size: 14px;
+    font-weight: bold;
     background-color: rgb(255, 255, 255);
-    color: white;
+    color: rgba(0, 0, 0, 0.736);
 }
 
 #search-input::placeholder {
