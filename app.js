@@ -39,6 +39,7 @@ export default class ParkingApp {
 
     // Only add event listeners if elements exist
     entradaBtn?.addEventListener('click', () => this.showEntradaModal());
+    entradaBtn.addEventListener('touchstart', () => this.showEntradaModal());
     cancelBtn?.addEventListener('click', () => this.hideEntradaModal());
     closeDetailsBtn?.addEventListener('click', () => this.hideDetailsModal());
     checkoutBtn?.addEventListener('click', () => this.checkoutVehicle());
